@@ -24,6 +24,7 @@
 		2456B3CB26032F5F0090E379 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2456B3CA26032F5F0090E379 /* Statistics.storyboard */; };
 		2456B3CF26032F9C0090E379 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2456B3CE26032F9C0090E379 /* Budget.storyboard */; };
 		2456B3D326032FC00090E379 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2456B3D226032FC00090E379 /* Profile.storyboard */; };
+		2456B3D726033D380090E379 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2456B3D626033D380090E379 /* SignIn.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		2456B3CA26032F5F0090E379 /* Statistics.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
 		2456B3CE26032F9C0090E379 /* Budget.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		2456B3D226032FC00090E379 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		2456B3D626033D380090E379 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +135,7 @@
 		2456B3782602FB410090E379 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				2456B37B2602FB680090E379 /* Sing In */,
+				2456B37B2602FB680090E379 /* Sign In */,
 				2456B37A2602FB570090E379 /* Onboarding */,
 			);
 			path = Authentication;
@@ -159,11 +161,12 @@
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		2456B37B2602FB680090E379 /* Sing In */ = {
+		2456B37B2602FB680090E379 /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
+				2456B3D626033D380090E379 /* SignIn.storyboard */,
 			);
-			path = "Sing In";
+			path = "Sign In";
 			sourceTree = "<group>";
 		};
 		2456B37C2602FB770090E379 /* Transactions */ = {
@@ -299,6 +302,7 @@
 				2456B3B326032BE60090E379 /* Assets.xcassets in Resources */,
 				2456B3D326032FC00090E379 /* Profile.storyboard in Resources */,
 				2456B3C326032DD10090E379 /* Add.storyboard in Resources */,
+				2456B3D726033D380090E379 /* SignIn.storyboard in Resources */,
 				2456B3CB26032F5F0090E379 /* Statistics.storyboard in Resources */,
 				2456B3B426032BE60090E379 /* Main.storyboard in Resources */,
 				2456B3CF26032F9C0090E379 /* Budget.storyboard in Resources */,
