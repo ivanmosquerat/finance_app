@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		243805992604DB6000288548 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243805982604DB6000288548 /* Shadow.swift */; };
 		2456B3612602F8ED0090E379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456B34E2602ED140090E379 /* ViewController.swift */; };
 		2456B3622602F8ED0090E379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456B34A2602ED140090E379 /* AppDelegate.swift */; };
 		2456B3632602F8ED0090E379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456B34C2602ED140090E379 /* SceneDelegate.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		243805982604DB6000288548 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		2456B34A2602ED140090E379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2456B34C2602ED140090E379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2456B34E2602ED140090E379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		243805972604DB1C00288548 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				243805982604DB6000288548 /* Shadow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2456B33E2602ED140090E379 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 		2456B3492602ED140090E379 /* finance */ = {
 			isa = PBXGroup;
 			children = (
+				243805972604DB1C00288548 /* Extensions */,
 				2456B3772602FB200090E379 /* Resources */,
 				2456B3742602FAFB0090E379 /* Base */,
 				2456B3732602FAE20090E379 /* Application */,
@@ -328,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2456B3AD26032BE60090E379 /* ViewController.swift in Sources */,
+				243805992604DB6000288548 /* Shadow.swift in Sources */,
 				2456B3AE26032BE60090E379 /* AppDelegate.swift in Sources */,
 				2456B3AF26032BE60090E379 /* SceneDelegate.swift in Sources */,
 			);
