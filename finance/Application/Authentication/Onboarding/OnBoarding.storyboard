@@ -91,7 +91,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4NU-Bj-RAZ" kind="presentation" id="E1u-Cx-kls"/>
+                                    <segue destination="4NU-Bj-RAZ" kind="presentation" modalPresentationStyle="fullScreen" id="E1u-Cx-kls"/>
                                 </connections>
                             </button>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="9hK-Yj-09k">
