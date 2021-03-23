@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		243805992604DB6000288548 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243805982604DB6000288548 /* Shadow.swift */; };
+		245393092606FABE008E1E48 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245393082606FABE008E1E48 /* TransactionsViewController.swift */; };
 		2456B3612602F8ED0090E379 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456B34E2602ED140090E379 /* ViewController.swift */; };
 		2456B3622602F8ED0090E379 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456B34A2602ED140090E379 /* AppDelegate.swift */; };
 		2456B3632602F8ED0090E379 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456B34C2602ED140090E379 /* SceneDelegate.swift */; };
@@ -30,10 +31,12 @@
 		24585ECE2605ABC8004530D8 /* OnBoardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24585ECD2605ABC8004530D8 /* OnBoardingContainerViewController.swift */; };
 		24585ED22605AF87004530D8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24585ED12605AF87004530D8 /* OnBoardingViewController.swift */; };
 		24585ED62605CDFF004530D8 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24585ED52605CDFF004530D8 /* OnBoardingStepsViewController.swift */; };
+		24C600AC26098FA2009CFA00 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C600AB26098FA2009CFA00 /* EmptyState.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		243805982604DB6000288548 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		245393082606FABE008E1E48 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		2456B34A2602ED140090E379 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2456B34C2602ED140090E379 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2456B34E2602ED140090E379 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +59,7 @@
 		24585ECD2605ABC8004530D8 /* OnBoardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingContainerViewController.swift; sourceTree = "<group>"; };
 		24585ED12605AF87004530D8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		24585ED52605CDFF004530D8 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
+		24C600AB26098FA2009CFA00 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +200,8 @@
 			isa = PBXGroup;
 			children = (
 				2456B3C626032E680090E379 /* Transactions.storyboard */,
+				245393082606FABE008E1E48 /* TransactionsViewController.swift */,
+				24C600AB26098FA2009CFA00 /* EmptyState.xib */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -322,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2456B3B226032BE60090E379 /* LaunchScreen.storyboard in Resources */,
+				24C600AC26098FA2009CFA00 /* EmptyState.xib in Resources */,
 				2456B3B326032BE60090E379 /* Assets.xcassets in Resources */,
 				2456B3D326032FC00090E379 /* Profile.storyboard in Resources */,
 				2456B3C326032DD10090E379 /* Add.storyboard in Resources */,
@@ -357,6 +364,7 @@
 				24585ED22605AF87004530D8 /* OnBoardingViewController.swift in Sources */,
 				24585ED62605CDFF004530D8 /* OnBoardingStepsViewController.swift in Sources */,
 				2456B3AE26032BE60090E379 /* AppDelegate.swift in Sources */,
+				245393092606FABE008E1E48 /* TransactionsViewController.swift in Sources */,
 				2456B3AF26032BE60090E379 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
