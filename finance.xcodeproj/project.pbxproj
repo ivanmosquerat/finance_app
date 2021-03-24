@@ -32,6 +32,7 @@
 		24585ED22605AF87004530D8 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24585ED12605AF87004530D8 /* OnBoardingViewController.swift */; };
 		24585ED62605CDFF004530D8 /* OnBoardingStepsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24585ED52605CDFF004530D8 /* OnBoardingStepsViewController.swift */; };
 		24C600AC26098FA2009CFA00 /* EmptyState.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24C600AB26098FA2009CFA00 /* EmptyState.xib */; };
+		24C600B0260B7C96009CFA00 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C600AF260B7C96009CFA00 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		24585ED12605AF87004530D8 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
 		24585ED52605CDFF004530D8 /* OnBoardingStepsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingStepsViewController.swift; sourceTree = "<group>"; };
 		24C600AB26098FA2009CFA00 /* EmptyState.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyState.xib; sourceTree = "<group>"; };
+		24C600AF260B7C96009CFA00 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 			children = (
 				2456B34E2602ED140090E379 /* ViewController.swift */,
 				2456B3502602ED140090E379 /* Main.storyboard */,
+				24C600AF260B7C96009CFA00 /* TabBarViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				243805992604DB6000288548 /* Shadow.swift in Sources */,
 				24585ECE2605ABC8004530D8 /* OnBoardingContainerViewController.swift in Sources */,
 				24585ED22605AF87004530D8 /* OnBoardingViewController.swift in Sources */,
+				24C600B0260B7C96009CFA00 /* TabBarViewController.swift in Sources */,
 				24585ED62605CDFF004530D8 /* OnBoardingStepsViewController.swift in Sources */,
 				2456B3AE26032BE60090E379 /* AppDelegate.swift in Sources */,
 				245393092606FABE008E1E48 /* TransactionsViewController.swift in Sources */,

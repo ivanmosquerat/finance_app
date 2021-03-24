@@ -28,7 +28,9 @@
         <scene sceneID="Ma2-f8-23e">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="01O-bz-PPB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="chart.bar.xaxis" catalog="system" id="gZw-v2-8vT"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lZN-lC-AbR">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -44,6 +46,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chart.bar.xaxis" catalog="system" width="128" height="98"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
